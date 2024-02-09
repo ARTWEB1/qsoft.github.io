@@ -1,0 +1,223 @@
+
+
+@media (max-width: 1300px) {
+
+    
+
+    .partners__list {
+        justify-content: center;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .header {
+        margin-bottom: 66px;
+    } 
+
+
+
+    .poisk {
+        border: 1px solid #BBC4D6;
+        border-radius: 3px;
+        display: flex;
+        height: 40px;
+        max-width: 344px;
+        width: 100%;
+        margin-right: 69px;
+    }
+
+
+    .logo {
+        margin-right: 50px;
+        flex-shrink: 0
+    }
+
+
+
+    .partners-title {
+        font-size: 28px;
+    }
+
+
+    .partener-block {
+        width: 193px;
+        height: 84px;
+        padding: 17px;
+    }
+
+
+
+
+      .partners__list {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: left;
+      }
+
+
+}
+
+
+
+
+
+@media (max-width: 750px) {
+
+    .header-container {
+        display: grid;
+        grid-template-areas:
+            'logo profeli'
+            'poisk poisk ';
+    
+    }
+
+
+    .logo {
+        grid-area: logo;
+        margin-bottom: 16px;
+        
+    }
+
+    .profeli {
+        grid-area: profeli;
+        justify-content: end;
+        align-self: baseline;
+        padding-top: 1px;
+    }
+
+
+    .poisk {
+        grid-area: poisk;
+        padding-right: 0px;
+        max-width: 100%;
+    }
+
+
+
+    
+    .partners__list {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+      }
+
+
+
+
+
+}
+
+
+
+
+@media (max-width: 500px) {
+
+    .partener-block {
+        width: 300px;
+    } 
+
+}
+
+
+
+
+
+@media (max-width: 375px) {
+
+    .container {
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .header-container {
+        display: grid;
+        grid-template-areas:
+            'logo profeli'
+            'poisk poisk ';
+    
+    }
+
+
+    .logo {
+        grid-area: logo;
+        margin-bottom: 16px;
+        
+    }
+
+    .profeli {
+        grid-area: profeli;
+        justify-content: end;
+        align-self: baseline;
+        padding-top: 1px;
+    }
+
+
+    .poisk {
+        grid-area: poisk;
+        border: none;
+        padding-right: 0px;
+    }
+
+    .header {
+        padding: 16px 0 0 0;
+    }
+
+
+    .partener-block {
+        width: 300px;
+    } 
+
+
+    .header-text {
+        display: none;
+    }
+
+
+    .profeli-img {
+        display: none;
+    }
+
+
+    .poisk {
+        margin-right: 0;
+    }
+    
+
+    .form {
+        position: relative;
+        padding-left: 0;
+    }
+
+    .form::before {
+        content: '';
+        position: absolute;
+        width: calc(100% + 40px);
+        height: 1px;
+        left: -20px;
+        background-color: #EBEBF1;
+    }
+
+
+
+    .input-text {
+        width: 302px;
+        padding: 12px 14px 12px 14px;
+        border: none;
+        margin-top: 2px;
+        padding-left: 23px;
+    }
+
+
+    .profeli-img2 {
+        display: block;
+    }
+
+}
